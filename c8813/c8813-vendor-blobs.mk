@@ -1,4 +1,4 @@
-# Copyright (C) 2011 The CyanogenMod Project
+# Copyright (C) 2013 The CyanogenMod Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -16,40 +16,24 @@
 
 
 PRODUCT_COPY_FILES += \
-    vendor/huawei/c8813/proprietary/bin/abtfilt:system/bin/abtfilt \
     vendor/huawei/c8813/proprietary/bin/akmd8963:system/bin/akmd8963 \
     vendor/huawei/c8813/proprietary/bin/akmd8975:system/bin/akmd8975 \
-    vendor/huawei/c8813/proprietary/bin/athtestcmd:system/bin/athtestcmd \
-    vendor/huawei/c8813/proprietary/bin/atserver:system/bin/atserver \
     vendor/huawei/c8813/proprietary/bin/bridgemgrd:system/bin/bridgemgrd \
-    vendor/huawei/c8813/proprietary/bin/diag_dci_client:system/bin/diag_dci_client \
-    vendor/huawei/c8813/proprietary/bin/diag_mdlog:system/bin/diag_mdlog \
-    vendor/huawei/c8813/proprietary/bin/diag_socket_log:system/bin/diag_socket_log \
-    vendor/huawei/c8813/proprietary/bin/diag_uart_log:system/bin/diag_uart_log \
     vendor/huawei/c8813/proprietary/bin/gps_check:system/bin/gps_check \
     vendor/huawei/c8813/proprietary/bin/gpu_dcvsd:system/bin/gpu_dcvsd \
-    vendor/huawei/c8813/proprietary/bin/hciattach:system/bin/hciattach \
-    vendor/huawei/c8813/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
-    vendor/huawei/c8813/proprietary/bin/hwdevctlservice:system/bin/hwdevctlservice \
     vendor/huawei/c8813/proprietary/bin/load_oemlogo:system/bin/load_oemlogo \
     vendor/huawei/c8813/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
     vendor/huawei/c8813/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/huawei/c8813/proprietary/bin/modempre:system/bin/modempre \
     vendor/huawei/c8813/proprietary/bin/mpdecision:system/bin/mpdecision \
     vendor/huawei/c8813/proprietary/bin/netmgrd:system/bin/netmgrd \
-    vendor/huawei/c8813/proprietary/bin/nvext:system/bin/nvext \
     vendor/huawei/c8813/proprietary/bin/oem_rpc_svc:system/bin/oem_rpc_svc \
-    vendor/huawei/c8813/proprietary/bin/port-bridge:system/bin/port-bridge \
-    vendor/huawei/c8813/proprietary/bin/pppd:system/bin/pppd \
     vendor/huawei/c8813/proprietary/bin/qmiproxy:system/bin/qmiproxy \
     vendor/huawei/c8813/proprietary/bin/qmuxd:system/bin/qmuxd \
-    vendor/huawei/c8813/proprietary/bin/qosmgr:system/bin/qosmgr \
-    vendor/huawei/c8813/proprietary/bin/qrngd:system/bin/qrngd \
     vendor/huawei/c8813/proprietary/bin/rmt_oeminfo:system/bin/rmt_oeminfo \
     vendor/huawei/c8813/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/huawei/c8813/proprietary/bin/thermald:system/bin/thermald \
     vendor/huawei/c8813/proprietary/bin/v4l2-qcamera-app:system/bin/v4l2-qcamera-app \
-    vendor/huawei/c8813/proprietary/bin/write_NV_114:system/bin/write_NV_114 \
     vendor/huawei/c8813/proprietary/lib/libauth.so:system/lib/libauth.so \
     vendor/huawei/c8813/proprietary/lib/libchromatix_ov5647_default_video.so:system/lib/libchromatix_ov5647_default_video.so \
     vendor/huawei/c8813/proprietary/lib/libchromatix_ov5647_ff_default_video.so:system/lib/libchromatix_ov5647_ff_default_video.so \
@@ -76,12 +60,9 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/c8813/proprietary/lib/libgetzip.so:system/lib/libgetzip.so \
     vendor/huawei/c8813/proprietary/lib/libgsdi_exp.so:system/lib/libgsdi_exp.so \
     vendor/huawei/c8813/proprietary/lib/libgstk_exp.so:system/lib/libgstk_exp.so \
-    vendor/huawei/c8813/proprietary/lib/libhwdevctl_client.so:system/lib/libhwdevctl_client.so \
-    vendor/huawei/c8813/proprietary/lib/libhwdevctlservice.so:system/lib/libhwdevctlservice.so \
     vendor/huawei/c8813/proprietary/lib/libhwnv.so:system/lib/libhwnv.so \
     vendor/huawei/c8813/proprietary/lib/libhwrpc.so:system/lib/libhwrpc.so \
     vendor/huawei/c8813/proprietary/lib/libidl.so:system/lib/libidl.so \
-    vendor/huawei/c8813/proprietary/lib/libifdsmartcardapi.so:system/lib/libifdsmartcardapi.so \
     vendor/huawei/c8813/proprietary/lib/libimage-jpeg-enc-omx-comp.so:system/lib/libimage-jpeg-enc-omx-comp.so \
     vendor/huawei/c8813/proprietary/lib/libimage-omx-common.so:system/lib/libimage-omx-common.so \
     vendor/huawei/c8813/proprietary/lib/libloc_adapter.so:system/lib/libloc_adapter.so \
@@ -109,7 +90,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/c8813/proprietary/lib/libmmstillomx.so:system/lib/libmmstillomx.so \
     vendor/huawei/c8813/proprietary/lib/libmvs.so:system/lib/libmvs.so \
     vendor/huawei/c8813/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \
-    vendor/huawei/c8813/proprietary/lib/libNimsWrap.so:system/lib/libNimsWrap.so \
     vendor/huawei/c8813/proprietary/lib/libnl_2.so:system/lib/libnl_2.so \
     vendor/huawei/c8813/proprietary/lib/libnv.so:system/lib/libnv.so \
     vendor/huawei/c8813/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
