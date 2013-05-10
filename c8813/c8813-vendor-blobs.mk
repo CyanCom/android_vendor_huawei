@@ -20,7 +20,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/c8813/proprietary/bin/akmd8975:system/bin/akmd8975 \
     vendor/huawei/c8813/proprietary/bin/bridgemgrd:system/bin/bridgemgrd \
     vendor/huawei/c8813/proprietary/bin/gps_check:system/bin/gps_check \
-    vendor/huawei/c8813/proprietary/bin/gpu_dcvsd:system/bin/gpu_dcvsd \
     vendor/huawei/c8813/proprietary/bin/load_oemlogo:system/bin/load_oemlogo \
     vendor/huawei/c8813/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
     vendor/huawei/c8813/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
@@ -149,17 +148,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/c8813/proprietary/lib/libcontrast.so:system/lib/libcontrast.so \
     vendor/huawei/c8813/proprietary/lib/libadc.so:system/lib/libadc.so \
     vendor/huawei/c8813/proprietary/lib/libaudioeq.so:system/lib/libaudioeq.so
-
-#PRODUCT_COPY_FILES += \
-#    vendor/huawei/c8813/proprietary/lib/libproduct_bt_check.so:system/lib/libproduct_bt_check.so \
-#    vendor/huawei/c8813/proprietary/lib/libwifidiag.so:system/lib/libwifidiag.so \
-#    vendor/huawei/c8813/proprietary/lib/libwifi_test.so:system/lib/libwifi_test.so \
-#    vendor/huawei/c8813/proprietary/bin/ath_supplicant:system/bin/ath_supplicant \
-#    vendor/huawei/c8813/proprietary/bin/widevinetest_rpc:system/bin/widevinetest_rpc \
-#    vendor/huawei/c8813/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
-#    vendor/huawei/c8813/proprietary/bin/hostapd:system/bin/hostapd \
-#    vendor/huawei/c8813/proprietary/bin/hostapd_cli:system/bin/hostapd_cli \
-#    vendor/huawei/c8813/proprietary/bin/ds_fmc_appd:system/bin/bin/ds_fmc_appd
 
 #    vendor/huawei/c8813/proprietary/bin/rild:system/bin/rild \
 #    vendor/huawei/c8813/proprietary/lib/libril.so:system/lib/libril.so \
