@@ -147,7 +147,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/c8813/proprietary/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so \
     vendor/huawei/c8813/proprietary/lib/libcontrast.so:system/lib/libcontrast.so \
     vendor/huawei/c8813/proprietary/lib/libadc.so:system/lib/libadc.so \
-    vendor/huawei/c8813/proprietary/lib/libaudioeq.so:system/lib/libaudioeq.so
-
-#    vendor/huawei/c8813/proprietary/bin/rild:system/bin/rild \
-#    vendor/huawei/c8813/proprietary/lib/libril.so:system/lib/libril.so \
+    vendor/huawei/c8813/proprietary/lib/libaudioeq.so:system/lib/libaudioeq.so \
+    vendor/huawei/c8813/proprietary/bin/rild:system/bin/rild \
+    vendor/huawei/c8813/proprietary/lib/libril.so:system/lib/libril.so \
