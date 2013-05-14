@@ -33,6 +33,8 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/c8813/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/huawei/c8813/proprietary/bin/thermald:system/bin/thermald \
     vendor/huawei/c8813/proprietary/bin/v4l2-qcamera-app:system/bin/v4l2-qcamera-app \
+	vendor/huawei/c8813/proprietary/bin/hciattach:system/bin/hciattach \
+	vendor/huawei/c8813/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/huawei/c8813/proprietary/lib/libauth.so:system/lib/libauth.so \
     vendor/huawei/c8813/proprietary/lib/libchromatix_ov5647_default_video.so:system/lib/libchromatix_ov5647_default_video.so \
     vendor/huawei/c8813/proprietary/lib/libchromatix_ov5647_ff_default_video.so:system/lib/libchromatix_ov5647_ff_default_video.so \
